@@ -13,6 +13,8 @@ import java.io.IOException;
 
 import com.gbstudios.world.World;
 
+import view.TelaLogin;
+
 public class Menu {
 
 	public String[] options = {"Novo Jogo", "Carregar Jogo", "Sair"};
@@ -159,7 +161,7 @@ public class Menu {
 		g.fillRect(0, 0, Game.WIDTH*Game.SCALE, Game.HEIGHT*Game.SCALE);
 		g.setColor(Color.white);
 		g.setFont(new Font("arial", Font.BOLD, 36));
-		g.drawString(">First Game<", (Game.WIDTH*Game.SCALE) / 2 - 120, (Game.HEIGHT*Game.SCALE) / 2 - 100);
+		g.drawString(">Fatec Fighter<", (Game.WIDTH*Game.SCALE) / 2 - 120, (Game.HEIGHT*Game.SCALE) / 2 - 100);
 		
 		//Opções de menu
 		g.setFont(new Font("arial", Font.BOLD, 24));

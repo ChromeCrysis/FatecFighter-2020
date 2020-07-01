@@ -185,7 +185,7 @@ public class Player extends Entity{
 			Entity atual = Game.entities.get(i);
 			if(atual instanceof LifePack) {
 				if(Entity.isColliding(this, atual)) {
-					if(life >= 60)
+					if(life >= 90)
 						continue;
 					life+=10;
 					if(life > 100) {

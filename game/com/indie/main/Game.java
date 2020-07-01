@@ -90,7 +90,7 @@ public class Game extends Canvas implements Runnable, KeyListener, MouseListener
 	}
 	
 	public void initFrame() {
-		frame = new JFrame("Teste #1");
+		frame = new JFrame("Fatec Fighter");
 		frame.add(this);
 		frame.setResizable(false);
 		frame.pack();
@@ -196,6 +196,7 @@ public class Game extends Canvas implements Runnable, KeyListener, MouseListener
 		g.setColor(Color.white);
 		g.drawString("Munição: " + Player.ammo, 610, 30);
 		g.drawString("Level: " + Player.level, 610, 60);
+		g.drawString("Fase: " + CUR_LEVEL, 350, 30);
 		if(gameState == "GAME_OVER") {
 			Graphics2D g2 = (Graphics2D) g;
 			g2.setColor(new Color(0, 0, 0, 150));

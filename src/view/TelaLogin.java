@@ -33,7 +33,7 @@ import java.sql.SQLException;
 
 public class TelaLogin {
 
-	JFrame frameFatecArcadeGame;
+	public JFrame frameFatecArcadeGame;
 	private JTextField txtUsuario;
 	private JPasswordField txtSenha;
 	
