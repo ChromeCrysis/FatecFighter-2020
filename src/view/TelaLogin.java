@@ -73,7 +73,7 @@ public class TelaLogin {
 	private void initialize() {
 		frameFatecArcadeGame = new JFrame();
 		frameFatecArcadeGame.setResizable(false);
-		frameFatecArcadeGame.setTitle("Fatec- Arcade Game");
+		frameFatecArcadeGame.setTitle("Ghost Slayer v.0.1 beta");
 		frameFatecArcadeGame.getContentPane().setBackground(new Color(240, 240, 240));
 		frameFatecArcadeGame.setBounds(100, 100, 660, 403);
 		frameFatecArcadeGame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -127,7 +127,7 @@ public class TelaLogin {
 					if(txtUsuario.getText().equals("") || txtSenha.getText().equals("")){
 						JOptionPane.showMessageDialog(null, "Preencha todos os campos para fazer login!!!");
 					}else if (rs.getString("SENHA_JOGADOR").equals(txtSenha.getText())) {
-						JOptionPane.showMessageDialog(null, "Bem vindo"+ " "+ txtUsuario.getText() +" "+"ao Fatec Fighting!");
+						JOptionPane.showMessageDialog(null, "Bem vindo"+ " "+ txtUsuario.getText() +" "+"ao Ghost Slayer!");
 						Game telaGame = new Game();
 						/*
 						 * Se a senha existir na consulta vai redirecionar para a próxima tela
@@ -176,7 +176,7 @@ public class TelaLogin {
 		lblUsuario.setForeground(new Color(255, 255, 255));
 		lblUsuario.setFont(new Font("Arial", Font.PLAIN, 12));
 		
-		JLabel lblTitle = new JLabel("Fatec Fighter");
+		JLabel lblTitle = new JLabel("Ghost Slayer");
 		lblTitle.setFont(new Font("Tempus Sans ITC", Font.PLAIN, 20));
 		lblTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTitle.setForeground(new Color(255, 255, 255));

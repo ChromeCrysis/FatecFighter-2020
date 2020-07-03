@@ -61,7 +61,7 @@ public class TelaCadastro {
 	private void initialize() {
 		frmFatecGame = new JFrame();
 		frmFatecGame.setResizable(false);
-		frmFatecGame.setTitle("Fatec - Arcade Game ");
+		frmFatecGame.setTitle("Ghost Slayer v.0.1 beta");
 		frmFatecGame.setBounds(100, 100, 600, 450);
 		frmFatecGame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmFatecGame.getContentPane().setLayout(null);
@@ -176,7 +176,7 @@ public class TelaCadastro {
 		btnVoltar.setBounds(219, 286, 89, 23);
 		panelCadastrar.add(btnVoltar);
 		
-		JLabel lblTitle = new JLabel("Fatec Arcade Game");
+		JLabel lblTitle = new JLabel("Ghost Slayer");
 		lblTitle.setForeground(new Color(255, 255, 255));
 		lblTitle.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTitle.setFont(new Font("Tempus Sans ITC", Font.PLAIN, 20));

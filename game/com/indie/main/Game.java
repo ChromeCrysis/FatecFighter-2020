@@ -90,7 +90,7 @@ public class Game extends Canvas implements Runnable, KeyListener, MouseListener
 	}
 	
 	public void initFrame() {
-		frame = new JFrame("Fatec Fighter");
+		frame = new JFrame("Ghost Slayer v.0.1 beta");
 		frame.add(this);
 		frame.setResizable(false);
 		frame.pack();
